@@ -1,0 +1,20 @@
+@media (max-width: 575.98px) {
+    .aaa{
+        display: none;
+    }
+    .phone{
+        display: none
+    }
+    .bbb{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        display: none;
+    }
+    .card-fs-content-body-unit{
+        width: 187px;
+    }
+}
