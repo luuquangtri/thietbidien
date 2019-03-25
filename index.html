@@ -611,7 +611,7 @@
                                 <div class="line-footer"><span></span></div>
                             </div>
                             <div class="social">
-                                
+
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -635,6 +635,41 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // $(window).scroll(function () {
+        //     if ($(this).scrollTop() > 135) {
+        //         $('.menu-slide-bar').addClass('fixed');
+        //     } else {
+        //         $('.menu-slide-bar').removeClass('fixed');
+        //     }
+        // });
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 135) {
+                $('.menu').addClass('fixed-2');
+            } else {
+                $('.menu').removeClass('fixed-2');
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 135) {
+                    $('.menu-slide-bar ').css('position', 'fixed');
+                    $('.menu-slide-bar ').css('top', '40px');
+                    $('.menu-slide-bar ').css('width', '305');
+                }
+                else if ($(window).scrollTop() <= 135) {
+                    $('.menu-slide-bar').css('position', '');
+                    $('.menu-slide-bar').css('top', '');
+                    $('.menu-slide-bar ').css('width', '305');
+                }
+                if ($('.menu-slide-bar').offset().top + $(".menu-slide-bar").height() > $(".footer").offset().top) {
+                    $('.menu-slide-bar').css('top', -($(".menu-slide-bar").offset().top + $(".menu-slide-bar").height() - $(".footer").offset().top));
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

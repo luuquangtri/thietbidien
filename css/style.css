@@ -51,7 +51,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .menu {
-    background: #000033;
+    z-index: 99;
+    width: 100%;
+    background: #224171;
 }
 
 .navbar-brand {
@@ -93,12 +95,23 @@ body::-webkit-scrollbar-thumb {
     font-style: italic;
     color: black;
 }
-.test-1{
+/* .test-1{
     background: #224171;
     margin-top: 10px;
-}
+} */
 .full-width{
     max-width: 1340px !important;
+}
+.fixed{
+    position: fixed;
+    top: 40px;
+    width: 305px;
+    /* left: 0; */
+}
+.fixed-2{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 /* slide-bar */
 
