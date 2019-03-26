@@ -118,7 +118,9 @@ body::-webkit-scrollbar-thumb {
 .full-width {
     max-width: 1340px !important;
 }
-
+.item{
+    width: 1034px !important;
+}
 .fixed {
     position: fixed;
     top: 40px;
