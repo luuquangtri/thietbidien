@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'UTM Neo Sans Intel';
+    src: url('../UTMNeoSansIntel/UTMNeoSansIntel.eot');
+    src: url('../UTMNeoSansIntel/UTMNeoSansIntel.eot?#iefix') format('embedded-opentype'),
+        url('../UTMNeoSansIntel/UTMNeoSansIntel.woff2') format('woff2'),
+        url('../UTMNeoSansIntel/UTMNeoSansIntel.woff') format('woff'),
+        url('../UTMNeoSansIntel/UTMNeoSansIntel.ttf') format('truetype'),
+        url('../UTMNeoSansIntel/UTMNeoSansIntel.svg#UTMNeoSansIntel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

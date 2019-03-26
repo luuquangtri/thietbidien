@@ -63,6 +63,7 @@ body::-webkit-scrollbar-thumb {
 .nav-item .nav-link {
     color: white;
     text-transform: uppercase;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .nav-item {
@@ -77,6 +78,8 @@ body::-webkit-scrollbar-thumb {
     background: #224171;
     border: none;
     color: white;
+    font-family: 'UTM Neo Sans Intel';
+    text-transform: uppercase;
 }
 
 .title-header span {
@@ -84,16 +87,20 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .discrip-header {
     text-align: justify;
 }
-
+.discrip-header p{
+    font-family: 'UTM Neo Sans Intel';
+}
 .phone a {
     font-size: 2rem;
     font-style: italic;
     color: black;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 /* .test-1{
@@ -145,6 +152,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
     text-transform: uppercase;
     font-size: 15px;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .menu-slide-bar {
@@ -176,11 +184,12 @@ body::-webkit-scrollbar-thumb {
 .title-content h1 {
     font-size: 24px;
     color: white;
+    font-family: 'UTM Neo Sans Intel';
     padding: 5px 5px;
 }
 
 .card-fs-content-body-unit {
-    height: 290px;
+    height: 300px;
     width: 192px;
     float: left;
     margin-right: 12px;
@@ -205,7 +214,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-fs-content-body-unit .fs-card-title {
-    height: 50px;
+    height: 55px;
     line-height: 18px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -215,6 +224,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 14px;
     color: black;
     text-decoration: none;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .card-fs-content-body-unit .fs-card-price {
@@ -256,6 +266,8 @@ body::-webkit-scrollbar-thumb {
 
 .view-all a {
     color: red;
+    font-family: 'UTM Neo Sans Intel';
+    text-transform: uppercase;
 }
 
 /* new */
@@ -279,6 +291,8 @@ body::-webkit-scrollbar-thumb {
     flex: 1 1 auto;
     background-color: white;
     padding: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    border-radius: 5px;
 }
 
 .nodung-new .card img {
@@ -298,6 +312,7 @@ body::-webkit-scrollbar-thumb {
     color: #d31f26;
     text-align: left;
     font-size: 17px;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .row-new .col-md-4 {
@@ -307,6 +322,7 @@ body::-webkit-scrollbar-thumb {
 
 .card-text p {
     line-height: 20px;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .view-all-read {
@@ -315,11 +331,13 @@ body::-webkit-scrollbar-thumb {
     bottom: 3px;
     background: #99ffff;
     padding: 5px 25px;
+    border-radius: 5px;
 }
 
 .view-all-read a {
     font-weight: bold;
     text-transform: capitalize;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 /* footer */
@@ -332,6 +350,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'UTM Neo Sans Intel';
 }
 
 .footer p {}
