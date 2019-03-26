@@ -55,7 +55,7 @@
             </div>
 
             <div class="menu">
-                <div class="container">
+                <div class="container full-width">
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand text-uppercase" href="#"><i class="fas fa-bars"></i> Danh mục sản
                             phẩm</a>
@@ -526,7 +526,7 @@
                                             <h3 class="card-tile h5 text-uppercase">Ngôi nhà cả năm không tốn xu nào
                                                 tiền điện nước</h3>
                                         </a>
-                                        <div class="card-text text-left">
+                                        <div class="card-text text-left pb-4">
                                             <p>Ngôi nhà đặc biệt này nằm ở Hawaii, Mỹ. Nhìn bên ngoài nó không</p>
                                         </div>
                                         <div class="view-all-read"><a href="">đọc tiếp</a></div>
@@ -542,7 +542,7 @@
                                             <h3 class="card-tile h5 text-uppercase">Ngôi nhà cả năm không tốn xu nào
                                                 tiền điện nước</h3>
                                         </a>
-                                        <div class="card-text text-left">
+                                        <div class="card-text text-left pb-4">
                                             <p>Ngôi nhà đặc biệt này nằm ở Hawaii, Mỹ. Nhìn bên ngoài nó không</p>
                                         </div>
                                         <div class="view-all-read "><a href="">đọc tiếp</a></div>
@@ -558,7 +558,7 @@
                                             <h3 class="card-tile h5 text-uppercase">Ngôi nhà cả năm không tốn xu nào
                                                 tiền điện nước</h3>
                                         </a>
-                                        <div class="card-text text-left">
+                                        <div class="card-text text-left pb-4">
                                             <p>Ngôi nhà đặc biệt này nằm ở Hawaii, Mỹ. Nhìn bên ngoài nó không</p>
                                         </div>
                                         <div class="view-all-read"><a href="">đọc tiếp</a></div>
@@ -635,41 +635,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        // $(window).scroll(function () {
-        //     if ($(this).scrollTop() > 135) {
-        //         $('.menu-slide-bar').addClass('fixed');
-        //     } else {
-        //         $('.menu-slide-bar').removeClass('fixed');
-        //     }
-        // });
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 135) {
-                $('.menu').addClass('fixed-2');
-            } else {
-                $('.menu').removeClass('fixed-2');
-            }
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 135) {
-                    $('.menu-slide-bar ').css('position', 'fixed');
-                    $('.menu-slide-bar ').css('top', '40px');
-                    $('.menu-slide-bar ').css('width', '305');
-                }
-                else if ($(window).scrollTop() <= 135) {
-                    $('.menu-slide-bar').css('position', '');
-                    $('.menu-slide-bar').css('top', '');
-                    $('.menu-slide-bar ').css('width', '305');
-                }
-                if ($('.menu-slide-bar').offset().top + $(".menu-slide-bar").height() > $(".footer").offset().top) {
-                    $('.menu-slide-bar').css('top', -($(".menu-slide-bar").offset().top + $(".menu-slide-bar").height() - $(".footer").offset().top));
-                }
-            });
-        });
-    </script>
+    <script src="js/scroll-top.js"></script>
 </body>
 
 </html>

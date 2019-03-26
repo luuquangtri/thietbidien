@@ -95,24 +95,38 @@ body::-webkit-scrollbar-thumb {
     font-style: italic;
     color: black;
 }
+
 /* .test-1{
     background: #224171;
     margin-top: 10px;
 } */
-.full-width{
+.test-1{
+    max-width: 18% !important;
+}
+.test{
+    max-width: 82% !important;
+}
+.full-width {
     max-width: 1340px !important;
 }
-.fixed{
+
+.fixed {
     position: fixed;
     top: 40px;
     width: 305px;
     /* left: 0; */
 }
-.fixed-2{
+
+.fixed-2 {
     position: fixed;
     top: 0;
     width: 100%;
 }
+
+.fix {
+    /* padding: 5px !important; */
+}
+
 /* slide-bar */
 
 .slide ul {
@@ -165,7 +179,7 @@ body::-webkit-scrollbar-thumb {
 
 .card-fs-content-body-unit {
     height: 290px;
-    width:192px;
+    width: 192px;
     float: left;
     margin-right: 12px;
     position: relative;
@@ -261,8 +275,8 @@ body::-webkit-scrollbar-thumb {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1.25rem;
     background-color: white;
+    padding: 0.5rem;
 }
 
 .nodung-new .card img {
@@ -307,18 +321,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* footer */
-.footer{
+
+.footer {
     background: #99ffff;
 }
-.footer span{
+
+.footer span {
     display: block;
     text-transform: uppercase;
     font-weight: bold;
 }
-.footer p{
-   
-}
-.line-footer{
+
+.footer p {}
+
+.line-footer {
     width: 100%;
     height: 3px;
     background: black;
