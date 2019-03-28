@@ -1,20 +1,125 @@
-@media (max-width: 575.98px) {
-    .aaa{
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .menu-slide-bar {
         display: none;
     }
-    .phone{
-        display: none
-    }
-    .bbb{
+    .form-inline {
         display: none;
     }
-    nav{
+    .contact-header {
         display: none;
     }
-    .owl-theme .owl-nav.disabled+.owl-dots{
+    .phone a {
         display: none;
     }
-    .card-fs-content-body-unit{
-        width: 187px;
+    .test-1 {
+        display: none;
+    }
+    .test {
+        max-width: 100% !important;
+    }
+    .navbar {
+        display: none;
+    }
+    .logo {
+        text-align: left;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .map-location {
+        width: 100%;
+    }
+    .container {
+        padding: 0 !important;
+    }
+    .card-fs-content-body-unit {
+        width: 95% !important;
+    }
+    .item {
+        width: 100% !important;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        display: none;
+    }
+    .title-content h1 {
+        font-size: 20px;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+    .card-body h3 {
+        font-size: 14px;
+    }
+    .new-new-new {
+        padding: 0 4px !important;
+    }
+    .footer span {
+        font-size: 13px;
+    }
+    .sub-title-2 {
+        font-size: 12px;
+    }
+    .title-footer h3 {
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 769px) {
+    .menu-slide-bar {
+        display: none;
+    }
+    .form-inline {
+        display: none;
+    }
+    .contact-header {
+        display: none;
+    }
+    .phone a {
+        display: none;
+    }
+    .test-1 {
+        display: none;
+    }
+    .test {
+        max-width: 100% !important;
+    }
+    .navbar {
+        display: none;
+    }
+    .logo {
+        text-align: left;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .map-location {
+        width: 100%;
+    }
+    .container {
+        padding: 0 !important;
+    }
+    .card-fs-content-body-unit {
+        width: 95% !important;
+    }
+    .item {
+        width: 100% !important;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        display: none;
+    }
+    .title-content h1 {
+        font-size: 20px;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+    .card-body h3 {
+        font-size: 14px;
+    }
+    .new-new-new {
+        padding: 0 4px !important;
     }
 }

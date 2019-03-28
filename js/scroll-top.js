@@ -16,9 +16,9 @@ $(document).ready(function () {
     });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 135) {
-            $('.menu').addClass('fixed-2');
+            $('.menu').addClass('fixed-2').css('background','red');  
         } else {
-            $('.menu').removeClass('fixed-2');
+            $('.menu').removeClass('fixed-2').css('background','#224171');
         }
-    });
+    })
 });
