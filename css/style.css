@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-background {
-    background: #99ffff;
+    background: white;
 }
 
 .navbar {
@@ -86,10 +86,11 @@ body::-webkit-scrollbar-thumb {
 
 .title-header span {
     display: block;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'UTM Neo Sans Intel';
+    /* color: white; */
 }
 
 .discrip-header {
@@ -98,6 +99,7 @@ body::-webkit-scrollbar-thumb {
 
 .discrip-header p {
     font-family: 'UTM Neo Sans Intel';
+    /* color: white; */
 }
 
 .phone a {
@@ -403,9 +405,13 @@ body::-webkit-scrollbar-thumb {
 .menu-mobile{
     display: none;
 }
-.slide{
+/* .slide{
     margin-top: 97px;
-}
+} */
 .form-inline .form-control{
     width: 60%;
+    padding-left: 10px;
+}
+.fs-card-origin-price .price{
+    text-decoration: line-through;
 }
