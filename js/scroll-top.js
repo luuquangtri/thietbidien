@@ -16,9 +16,19 @@ $(document).ready(function () {
     });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 135) {
-            $('.menu').addClass('fixed-2').css('background','red');  
+            $('.menu').addClass('fixed-2').css('background', 'red');
         } else {
-            $('.menu').removeClass('fixed-2').css('background','#224171');
+            $('.menu').removeClass('fixed-2').css('background', '#224171');
         }
     })
+    $("#mobile-menu").mobileMenu({
+        MenuWidth: 250,
+        SlideSpeed: 250,
+        WindowsMaxWidth: 767,
+        PagePush: true,
+        FromLeft: true,
+        Overlay: true,
+        CollapseMenu: true,
+        ClassName: "mobile-menu"
+    });
 });

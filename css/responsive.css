@@ -64,7 +64,7 @@
     }
     .title-footer h3 {
         font-size: 1.2rem;
-        padding-top: 20px;
+        /* padding-top: 20px; */
     }
 }
 
@@ -121,5 +121,25 @@
     }
     .new-new-new {
         padding: 0 4px !important;
+    }
+    .title-footer h3 {
+        font-size: 1.2rem;
+        /* padding-top: 20px; */
+    }
+    .slide{
+        margin-top: 50px;
+    }
+    .mm-toggle{
+        background: transparent;
+    }
+    .bar-1{
+        color: black !important;
+        font-size: 35px !important;
+    }
+    .mm-toggle {
+        bottom: 35px
+    }
+    .menu-mobile{
+        display: block;
     }
 }

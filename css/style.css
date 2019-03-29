@@ -95,9 +95,11 @@ body::-webkit-scrollbar-thumb {
 .discrip-header {
     text-align: justify;
 }
-.discrip-header p{
+
+.discrip-header p {
     font-family: 'UTM Neo Sans Intel';
 }
+
 .phone a {
     font-size: 2rem;
     font-style: italic;
@@ -109,20 +111,25 @@ body::-webkit-scrollbar-thumb {
     background: #224171;
     margin-top: 10px;
 } */
-.test-1{
+
+.test-1 {
     max-width: 22% !important;
-    padding:0 5px !important;
+    padding: 0 5px !important;
 }
-.test{
+
+.test {
     max-width: 78% !important;
-    padding:0 5px !important;
+    padding: 0 5px !important;
 }
+
 .full-width {
     max-width: 1340px !important;
 }
-.item{
+
+.item {
     width: 1034px !important;
 }
+
 .fixed {
     position: fixed;
     top: 40px;
@@ -364,7 +371,41 @@ body::-webkit-scrollbar-thumb {
     height: 3px;
     background: black;
 }
-.new-new-new{
-   
+
+.new-new-new {
     padding: 0 5px !important;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    background: #ed1c24;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    border: 1px solid;
+    transition: 0.3s;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+.menu-mobile{
+    display: none;
+}
+.slide{
+    margin-top: 97px;
+}
+.form-inline .form-control{
+    width: 60%;
 }
