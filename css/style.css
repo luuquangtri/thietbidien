@@ -115,13 +115,13 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .test-1 {
-    max-width: 22% !important;
-    padding: 0 5px !important;
+    max-width: 245px !important;
+    padding: 0 !important;
 }
 
 .test {
-    max-width: 78% !important;
-    padding: 0 5px !important;
+    max-width: 1059px !important;
+    padding: 0 15px !important;
 }
 
 .full-width {
@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .item {
-    width: 1034px !important;
+    max-width: 100% !important;
 }
 
 .fixed {

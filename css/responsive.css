@@ -1,8 +1,123 @@
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 1151px) and (max-width: 1376px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        white-space: nowrap;
+    }
+    .map-location {
+        width: 100%;
+    }
+    .nav-item {
+        padding: 0 10px;
+    }
+    .test {
+        max-width: 78% !important;
+        padding: 0px 17px !important;
+    }
+    .test-1{
+        max-width: 245px !important;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1150px) {
+    .menu-slide-bar {
+        display: block !important;
+    }
+    .form-inline {
+        display: none;
+    }
+    .contact-header {
+        display: none;
+    }
+    .phone a {
+        display: none;
+    }
+    .test-1 {
+        display: block;
+    }
+    /* .test {
+        max-width: 100% !important;
+    } */
+    .navbar {
+        display:block;
+    }
+    .logo {
+        text-align: left;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .map-location {
+        width: 100%;
+    }
+    .container {
+        padding: 0 !important;
+    }
+    .card-fs-content-body-unit {
+        width: 95% !important;
+    }
+    .item {
+        width: 100% !important;
+        /* margin-left: 45px; */
+    }
+    .title-content{
+        width: 100%;
+        /* margin-left: 45px; */
+    }
+    .slick-dotted.slick-slider{
+        /* margin-left: 50px; */
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        display: none;
+    }
+    .title-content h1 {
+        font-size: 20px;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+    .card-body h3 {
+        font-size: 14px;
+    }
+    .new-new-new {
+        padding: 0 4px !important;
+    }
+    .footer span {
+        font-size: 13px;
+    }
+    .sub-title-2 {
+        font-size: 12px;
+    }
+    .title-footer h3 {
+        font-size: 1.1rem;
+        /* padding-top: 20px; */
+    }
+    .mm-toggle{
+        background: transparent;
+    }
+    .bar-1{
+        color: black !important;
+        font-size: 35px !important;
+    }
+    .mm-toggle {
+        bottom: 18px;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-slide-bar{
+        width: 245px !important;
+    }
+    /* .new-new-new{
+        max-width: 29%;
+        margin-left: 33px;
+    } */
+    .test{
+        max-width: 73% !important;
+        /* margin-left: 50px; */
+    }
 }
 
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 990px) {
     .menu-slide-bar {
         display: none;
     }
@@ -63,15 +178,34 @@
         font-size: 12px;
     }
     .title-footer h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         /* padding-top: 20px; */
+    }
+    .mm-toggle{
+        background: transparent;
+    }
+    .bar-1{
+        color: black !important;
+        font-size: 35px !important;
+    }
+    .mm-toggle {
+        bottom: 18px;
+    }
+    .menu-mobile{
+        display: block;
     }
 }
 
-@media screen and (min-width: 240px) and (max-width: 769px) {
+@media screen and (min-width: 240px) and (max-width: 767px) {
     .menu-slide-bar {
         display: none;
     }
+    .browser-size{
+		display: none;
+    }
+    .option-wrap, pre{
+		width: 100%;
+	}
     .form-inline {
         display: none;
     }
@@ -123,7 +257,8 @@
         padding: 0 4px !important;
     }
     .title-footer h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: bold;
         /* padding-top: 20px; */
     }
     .mm-toggle{
