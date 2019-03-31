@@ -403,23 +403,92 @@ body::-webkit-scrollbar-thumb {
 #back-to-top.show {
     opacity: 1;
 }
-.menu-mobile{
+
+.menu-mobile {
     display: none;
 }
+
 /* .slide{
     margin-top: 97px;
 } */
-.form-inline .form-control{
+
+.form-inline .form-control {
     width: 60%;
     padding-left: 10px;
 }
-.fs-card-origin-price .price{
+
+.fs-card-origin-price .price {
     text-decoration: line-through;
 }
-.card-fs-content-body{
+
+.card-fs-content-body {
     display: inline-block;
     margin-bottom: 20px;
 }
-.card-fs-content-body-unit{
+
+.card-fs-content-body-unit {
     width: 172px;
+}
+
+/* *********************** */
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove #224171;
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+/* fieldset::before{
+    position: absolute;
+    content: '';
+    width: 87%;
+    height: 2px;
+    background: #224171;
+    top: 14px;
+    left: 74px;
+} */
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 12%;
+    margin-bottom: -7px;
+}
+
+.chitietsp-detailsp .nav-tabs  .nav-link, .nav-tabs .nav-link.active{
+    color: black;
+    border: none;
+}
+.fade{
+    opacity: 1;
+}
+.chitietsp-detailsp .nav-item .nav-link{
+    color: black;
+    border: none;
+}
+.tab-content h3{
+    color: #224171;
+    margin-top: 10px;
+}
+.aaaa ul li{
+    line-height: 25px;
+}
+.aaaa ul li a{
+    color: black !important;    
+}
+.aaaa span{
+    display: block;
+    line-height: 32px;
+    font-weight: bold;
+}
+.nav-link.active{
+    color: red !important;
 }
