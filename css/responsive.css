@@ -49,9 +49,9 @@
     .container {
         padding: 0 !important;
     }
-    .card-fs-content-body-unit {
+    /* .card-fs-content-body-unit {
         width: 95% !important;
-    }
+    } */
     .item {
         width: 100% !important;
         /* margin-left: 45px; */
@@ -150,9 +150,9 @@
     .container {
         padding: 0 !important;
     }
-    .card-fs-content-body-unit {
+    /* .card-fs-content-body-unit {
         width: 95% !important;
-    }
+    } */
     .item {
         width: 100% !important;
     }
@@ -236,8 +236,9 @@
         padding: 0 !important;
     }
     .card-fs-content-body-unit {
-        width: 95% !important;
+        width: 130px;
     }
+    
     .item {
         width: 100% !important;
     }

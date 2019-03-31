@@ -60,6 +60,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar-brand {
     color: white;
+    margin-left: 45px;
 }
 
 .nav-item .nav-link {
@@ -414,4 +415,11 @@ body::-webkit-scrollbar-thumb {
 }
 .fs-card-origin-price .price{
     text-decoration: line-through;
+}
+.card-fs-content-body{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card-fs-content-body-unit{
+    width: 172px;
 }

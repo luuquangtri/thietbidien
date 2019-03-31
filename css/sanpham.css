@@ -1,0 +1,19 @@
+.title-content:nth-child(1){
+    margin-top: 12px;
+}
+.detail-sp img{
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .25);
+}
+.detail-sp{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.imagezoom-view{
+    background: transparent !important;
+    max-width: 100% !important;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .25) !important;
+}
+/* .imagezoom-view img{
+    width: 250px;
+    height: 250px;
+} */
