@@ -31,4 +31,7 @@ $(document).ready(function () {
         CollapseMenu: true,
         ClassName: "mobile-menu"
     });
+    $('.menu-2-mobile li').click(function() {
+        $(this).addClass('active-2').siblings().removeClass('active-2');
+    });
 });

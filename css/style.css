@@ -357,7 +357,7 @@ body::-webkit-scrollbar-thumb {
 /* footer */
 
 .footer {
-    background: #99ffff;
+    background: white;
 }
 
 .footer span {
@@ -428,6 +428,7 @@ body::-webkit-scrollbar-thumb {
 
 .card-fs-content-body-unit {
     width: 172px;
+    
 }
 
 /* *********************** */
@@ -491,4 +492,31 @@ legend {
 }
 .nav-link.active{
     color: red !important;
+}
+.fix-hidden{
+    display: none;
+}
+.search{
+    display: none;
+}
+.title-bar-menu-mobile ul{
+    padding: 5px 0;
+    margin: 0;
+}
+.title-bar-menu-mobile{
+    display: none;
+}
+.title-bar-menu-mobile ul li{
+    list-style: none;
+    width: 30.333%;
+    background: #224171;
+    border-left: 1px solid #dddddd;
+    padding: 5px 0;
+}
+.title-bar-menu-mobile ul li a{
+    color: white;
+}
+
+.active-2{
+   background: #c61422 !important;
 }
