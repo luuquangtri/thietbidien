@@ -427,7 +427,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-fs-content-body-unit {
-    width: 172px;
+    width: 170px;
     
 }
 
@@ -524,3 +524,20 @@ legend {
 .ui-content{
     display: none;
 }
+
+
+
+/* *************************** */
+ul.item_sp {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.list-sp{
+    display: none !important;
+}
+
