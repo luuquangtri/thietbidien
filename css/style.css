@@ -521,9 +521,6 @@ legend {
 .active-2{
    background: #c61422 !important;
 }
-.fb-tool{
-    max-width: 100%;
-}
-.fb-tool-box{
+.ui-content{
     display: none;
 }
