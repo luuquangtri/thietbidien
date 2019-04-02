@@ -16,7 +16,7 @@ $(document).ready(function () {
     });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 135) {
-            $('.menu').addClass('fixed-2').css('background', 'red');
+            $('.menu').addClass('fixed-2').css('background', 'rgb(198, 20, 34)');
         } else {
             $('.menu').removeClass('fixed-2').css('background', '#224171');
         }
@@ -31,7 +31,5 @@ $(document).ready(function () {
         CollapseMenu: true,
         ClassName: "mobile-menu"
     });
-    $('.menu-2-mobile li').click(function() {
-        $(this).addClass('active-2').siblings().removeClass('active-2');
-    });
+   
 });
